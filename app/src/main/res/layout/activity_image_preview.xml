@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".ImagePreview">
+
+
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/tv_photo_advice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.marozzi.roundbutton.RoundButton
+            android:id="@+id/retake_photo"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:text="Retake Photo"
+            app:rb_animation_alpha="false"
+            app:rb_animation_corner_radius="20dp"
+            app:rb_animation_duration="500"
+            app:rb_animation_progress_color="@color/colorAccent"
+            app:rb_animation_progress_padding="8dp"
+            app:rb_animation_progress_style="circle"
+            app:rb_animation_progress_width="2dp"
+            app:rb_background_color="@color/trans"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/GhostWhite"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_radius="5dp"
+            app:rb_corner_width="2dp"
+            app:rb_text_color="@color/YellowGreen"
+            app:rb_text_color_pressed="@android:color/white" />
+
+        <com.marozzi.roundbutton.RoundButton
+            android:id="@+id/start_processing"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="36dp"
+            android:gravity="center"
+            android:text="send for processing "
+            app:rb_animation_alpha="false"
+            app:rb_animation_corner_radius="20dp"
+            app:rb_animation_duration="500"
+            app:rb_animation_progress_color="@color/colorAccent"
+            app:rb_animation_progress_padding="8dp"
+            app:rb_animation_progress_style="circle"
+            app:rb_animation_progress_width="2dp"
+            app:rb_background_color="@color/IndianRed"
+            app:rb_background_color_pressed="@color/colorPrimary"
+            app:rb_corner_color="@color/GhostWhite"
+            app:rb_corner_color_pressed="@color/colorPrimary"
+            app:rb_corner_radius="5dp"
+            app:rb_corner_width="2dp"
+            app:rb_text_color="@color/White"
+            app:rb_text_color_pressed="@android:color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/loading_bar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:background="#A0000000"
+        android:layout_height="match_parent">
+        <com.comix.overwatch.HiveProgressView
+            android:id="@+id/loading_images"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            app:hive_shrink="true"
+            app:hive_color="@color/white"
+            app:hive_rainbow="false"
+            app:hive_maxAlpha="255"
+            app:hive_animDuration="1000"  />
+
+        <TextView
+            android:id="@+id/fetching_results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/loading_images"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-48dp"
+            android:text="Fetcing Results ..."
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</RelativeLayout>

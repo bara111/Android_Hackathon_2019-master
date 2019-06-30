@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "907316057031",
+    "firebase_url": "https://sddi-6bafe.firebaseio.com",
+    "project_id": "sddi-6bafe",
+    "storage_bucket": "sddi-6bafe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907316057031:android:f0106f80cb92cda0",
+        "android_client_info": {
+          "package_name": "com.example.android_hackathon_2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907316057031-j45mghld3j181ik7lv4oncvfrh20nvpk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android_hackathon_2019",
+            "certificate_hash": "22b9e128d769d39d587088c123e4b2019c41bc74"
+          }
+        },
+        {
+          "client_id": "907316057031-isk18c36610dfknnkkku961snqm2obio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android_hackathon_2019",
+            "certificate_hash": "6f4335be0b90e3b13b7335504ad2f6f87a95ff96"
+          }
+        },
+        {
+          "client_id": "907316057031-ik9h70mmht4qb80ebs9vahn9bh53lh0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfaQ5U-OjULwOXD-iLo-6S4cABNJyGGRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907316057031-ik9h70mmht4qb80ebs9vahn9bh53lh0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907316057031:android:48e7765223edc25a",
+        "android_client_info": {
+          "package_name": "com.inducesmile.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907316057031-78pnmscg7kalndon107ss470ccu2k8n4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inducesmile.firebaseauth",
+            "certificate_hash": "6f4335be0b90e3b13b7335504ad2f6f87a95ff96"
+          }
+        },
+        {
+          "client_id": "907316057031-c92d7bsr1e0olu68ci5anb4jt3jiqmbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inducesmile.firebaseauth",
+            "certificate_hash": "ac945ddbb6fb979add84ada933183883c33ea81a"
+          }
+        },
+        {
+          "client_id": "907316057031-oqkkehb08g2vokd7379hq3qcqhrk45jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inducesmile.firebaseauth",
+            "certificate_hash": "22b9e128d769d39d587088c123e4b2019c41bc74"
+          }
+        },
+        {
+          "client_id": "907316057031-7hl7vm0s5bh5vd20pu2mki555imo4f8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inducesmile.firebaseauth",
+            "certificate_hash": "4049272d5e6ebc4f52ed2b1fc2e422c7313358d3"
+          }
+        },
+        {
+          "client_id": "907316057031-ik9h70mmht4qb80ebs9vahn9bh53lh0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfaQ5U-OjULwOXD-iLo-6S4cABNJyGGRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907316057031-ik9h70mmht4qb80ebs9vahn9bh53lh0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907316057031:android:eee6f90c0b0db5e6",
+        "android_client_info": {
+          "package_name": "com.lawerance.hack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907316057031-1vllppibqsdoqkjsk3cini17i0uotth9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lawerance.hack",
+            "certificate_hash": "6f4335be0b90e3b13b7335504ad2f6f87a95ff96"
+          }
+        },
+        {
+          "client_id": "907316057031-ik9h70mmht4qb80ebs9vahn9bh53lh0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfaQ5U-OjULwOXD-iLo-6S4cABNJyGGRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907316057031-ik9h70mmht4qb80ebs9vahn9bh53lh0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
